@@ -19,11 +19,17 @@ body {
   padding: 0;
   background-color: var(--rose-100);
 }
+select,
+button {
+  font-family: "Red Hat Text", sans-serif;
+  color: var(--rose-600);
+}
 .container {
   max-width: 1200px;
   padding: 3rem 2rem;
   margin: 0 auto;
 }
+
 .container-nav {
   display: flex;
   justify-content: space-between;
@@ -353,5 +359,10 @@ select {
   }
   .container-nav {
     padding: 1rem;
+  }
+  .container .heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 2rem;
   }
 }
